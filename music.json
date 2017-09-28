@@ -1,0 +1,56 @@
+[
+{"type":"header","version":"4.7.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"music"},
+{"type":"table","name":"album","database":"music","data":
+[
+{"album_id":"1","title":"I Cry When I Laugh","artist_id":"3"},
+{"album_id":"2","title":"Swing Low","artist_id":"2"},
+{"album_id":"3","title":"You Don't Mess Around with Jim","artist_id":"1"},
+{"album_id":"4","title":"Life and Times","artist_id":"1"},
+{"album_id":"5","title":"Ain't That Good News","artist_id":"2"}
+]
+}
+,{"type":"table","name":"artist","database":"music","data":
+[
+{"artist_id":"1","name":"Jim Croce"},
+{"artist_id":"2","name":"Sam Cooke"},
+{"artist_id":"3","name":"Jess Glynne"}
+]
+}
+,{"type":"table","name":"genre","database":"music","data":
+[
+{"genre_id":"1","name":"Dance-pop"},
+{"genre_id":"2","name":"Folk"},
+{"genre_id":"3","name":"Soul"},
+{"genre_id":"4","name":"House"},
+{"genre_id":"5","name":"Funk"},
+{"genre_id":"6","name":"Pop soul"},
+{"genre_id":"7","name":"R&B"},
+{"genre_id":"8","name":"Country"}
+]
+}
+,{"type":"table","name":"track","database":"music","data":
+[
+{"track_id":"1","title":"A Change Is Gonna Come","len":"192","rating":"5","count":"0","album_id":"5","genre_id":"3"},
+{"track_id":"2","title":"Time in a Bottle","len":"150","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"3","title":"Don't Be So Hard on Yourself","len":"211","rating":"4","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"4","title":"Real Love","len":"219","rating":"5","count":"0","album_id":"1","genre_id":"4"},
+{"track_id":"5","title":"Right Here","len":"220","rating":"4","count":"0","album_id":"1","genre_id":"4"},
+{"track_id":"6","title":"Hold My Hand","len":"227","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"7","title":"Not Letting Go","len":"228","rating":"5","count":"0","album_id":"1","genre_id":"5"},
+{"track_id":"8","title":"Take Me Home","len":"265","rating":"5","count":"0","album_id":"1","genre_id":"6"},
+{"track_id":"9","title":"Rather Be","len":"227","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"10","title":"My Love","len":"262","rating":"5","count":"0","album_id":"1","genre_id":"4"},
+{"track_id":"11","title":"Ain't Got Far to Go","len":"229","rating":"4","count":"0","album_id":"1","genre_id":"3"},
+{"track_id":"12","title":"Ain't That Good News","len":"150","rating":"5","count":"0","album_id":"5","genre_id":"7"},
+{"track_id":"13","title":"Good Times","len":"231","rating":"4","count":"0","album_id":"5","genre_id":"8"},
+{"track_id":"14","title":"Another Saturday Nightg","len":"222","rating":"5","count":"0","album_id":"5","genre_id":"7"},
+{"track_id":"15","title":"Tennessee Waltz","len":"142","rating":"4","count":"0","album_id":"5","genre_id":"8"},
+{"track_id":"16","title":"The Riddle Song","len":"188","rating":"4","count":"0","album_id":"5","genre_id":"2"},
+{"track_id":"17","title":"Operator (That's Not the Way It Feels)","len":"230","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"18","title":"You Don't Mess Around with Jim","len":"182","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"19","title":"Walkin' back to Georgia","len":"340","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"20","title":"Hey Tomorrow","len":"169","rating":"5","count":"0","album_id":"3","genre_id":"2"}
+]
+}
+]
